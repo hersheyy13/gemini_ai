@@ -1,0 +1,30 @@
+name: gemini_app
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.4.1 <4.0.0'
+
+dependencies:
+  cupertino_icons: ^1.0.6
+  dash_chat_2: ^0.0.21
+  flutter:
+    sdk: flutter
+  flutter_gemini: ^2.0.4
+  flutter_launcher_icons: ^0.13.1
+  image_picker: ^1.1.2
+
+dev_dependencies:
+  flutter_lints: ^3.0.0
+  flutter_test:
+    sdk: flutter
+flutter_icons:
+  image_path: "assets/google.png" 
+  android: true
+
+
+flutter:
+  uses-material-design: true
+assets:
+  - assets/
